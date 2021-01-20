@@ -31,7 +31,7 @@ namespace Metotlar
             }
 
             Console.WriteLine("----------------Metotlar---------------");
-            //encapsulation== calsta ekleme yaparsan sayfalar patlamaz.... == kapsülleme anlamı taşır..
+            //encapsulation== classta ekleme yaparsan sayfalar patlamaz.... == kapsülleme anlamı taşır..
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
