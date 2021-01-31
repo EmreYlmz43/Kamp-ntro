@@ -15,8 +15,12 @@ namespace OOP1
 
             Product product2 = new Product {Id=2, CategoryId=3, ProductName="Kalem", UnitPrice= 35, UnitInStock=5 };
 
-            ProductManager productManager = new ProductManager();
-            ProductManager.Add(Product);
+            ProductManager productsManager = new ProductManager();
+            productsManager.Add(product1);
+            productsManager.Update(product2);
+           
+
+
         }
 
     }

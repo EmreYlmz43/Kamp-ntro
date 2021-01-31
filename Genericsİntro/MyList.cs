@@ -17,12 +17,12 @@ namespace Genericsİntro
             // İtem yerine ne verirsen olur.
         {
             //tempArray elemanın kaybetmemek için önceki referans numarasını tutar geçicidir.
-            T[] tempArry = items;
+            T[] tempArray = items;
             items = new T[items.Length + 1];
             // yeni referans numarası elemanların kaybolmasına sebep olur.
-            for (int i = 0; i < tempArray.length; i++)
+            for (int i = 0; i < tempArray.Length; i++)
             {
-                İtem[i] = tempArry[i];
+                items[i] = tempArray[i];
             }
             items[items.Length - 1] = İtem;
         }

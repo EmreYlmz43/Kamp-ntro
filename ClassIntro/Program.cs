@@ -35,7 +35,9 @@ namespace ClassIntro
             Kurs[] kurslar = new Kurs[] {kurs1,kurs2,kurs3,kurs4 };
 
             foreach (var kurs in kurslar)
-                Console.WriteLine(kurs.KursAdı+":"+kurs.Egitmen+":"+kurs.İzlenmeOranı);
+                Console.WriteLine("Kurs Adı" + ":" +kurs.KursAdı+ "\n"
+                    +"Eğitmen" +":" + kurs.Egitmen+ "\n" 
+                    + "İzlenme Oranı" +":" + kurs.İzlenmeOranı + "\n" );
             {
 
             }

@@ -34,7 +34,7 @@ namespace Kampİntro
                 Console.WriteLine("eşittir");
                 
             }
-            break
+            
 
             
 
@@ -59,19 +59,3 @@ namespace Kampİntro
 
 
 
-            if (sistemeGirisYapmısmı== false)
-            {
-                Console.WriteLine("Kullanıcı ayarı butonu");
-                
-            }
-
-            else
-            {
-                Console.WriteLine("Girirş yapma butonu");
-            }
-            Console.WriteLine(kategoriEtiketi);
-
-
-        }
-    }
-}

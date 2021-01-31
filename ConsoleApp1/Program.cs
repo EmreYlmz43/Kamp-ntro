@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
 
-            int caseSwitch = 3;
+            int caseSwitch = 1;
 
             switch (caseSwitch)
             {

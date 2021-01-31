@@ -8,13 +8,15 @@ namespace OOP1
     {
         public void Add(Product product)
         {
-            Console.WriteLine(product.ProductName + "eklendi");
+            Console.WriteLine(product.ProductName + ":" + "eklendi");
         }
-
         public void Update(Product product)
         {
-            Console.WriteLine(product.ProductName + "güncellendi");
+            Console.WriteLine(product.ProductName + ":" + "güncellendi");
         }
-
+        public void Delete(Product product)
+        {
+            Console.WriteLine(product.ProductName + ":" + "Siindi");
+        }
     }
 }
